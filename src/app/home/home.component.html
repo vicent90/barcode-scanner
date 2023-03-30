@@ -10,7 +10,7 @@
       <mat-label>Codigo de barras</mat-label>
       <input matInput placeholder="Codigo de barras" #input [(ngModel)]="barcode" (keyup.enter)="onGetPrices()">
     </mat-form-field>
-    <a style="float: right;" [routerLink]="['/barcode-scan']" mat-fab color="primary" matTooltip="Escanear código"
+    <a [routerLink]="['/barcode-scan']" mat-fab color="primary" matTooltip="Escanear código"
       class="btn-crear">
       <mat-icon>qr_code</mat-icon>
     </a>
