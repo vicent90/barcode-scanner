@@ -1,0 +1,28 @@
+.center {
+  margin: auto;
+  width: 85%;
+  max-width: 700px;
+  min-width: 250px;
+}
+
+.border {
+  border: 1px solid blue;
+}
+
+[mat-raised-button] {
+width: 100%;
+}
+
+
+.width-80 {
+  width: 80%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.inline {
+  display: flex;
+  gap: 5px;
+}
